@@ -1,0 +1,138 @@
+a {
+  text-decoration: none;
+  color: 959595;
+}
+ul li {
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ===============header================== */
+.container {
+}
+.header .menu-bar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 68px;
+}
+.link {
+  margin: 0 20px;
+  color: #959595;
+  text-transform: uppercase;
+}
+.link:hover {
+  text-decoration: none;
+  color: black;
+  transition: all 0.05s ease-in-out;
+}
+
+.header-left {
+  border-right: 1px solid #eeeeee;
+}
+.header-right {
+  border-left: 1px solid #eeeeee;
+}
+
+.header .logo {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 30px 0px;
+}
+.header .logo1 {
+  align-items: center;
+}
+
+/* ==============MAIN================== */
+.main {
+  padding: 80px 0;
+}
+.heading-1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.main .content {
+}
+
+.main .content .block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .content .block-item {
+  padding: 5px;
+  flex: 0 0 25%;
+}
+.main .content .block-item .block-picture {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+/* =======================footer================ */
+.footer {
+  background-color: #f9f9f9;
+}
+.footer .input {
+  text-align: center;
+}
+.footer .footer-text {
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding-top: 85px;
+}
+.footer .footer-email {
+  display: flex;
+  justify-content: center;
+  margin: 70px 70px;
+}
+.footer .footer-input {
+  border: none;
+  padding: 30px 285px 30px 35px;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+.footer .footer-btn {
+  padding: 30px 60px;
+  border: 1px solid #eeeeee;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+}
+.footer-btn:hover {
+  background-color: #dddddd;
+  transition: all 0.3s ease;
+}
+.link-itmes {
+  margin-bottom: 100px;
+}
+.footer-socialmedia {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.footer-socialmedia .social-link {
+  border: 1px solid #7b7b7b;
+  border-radius: 50%;
+  padding: 7px;
+  margin: 7px;
+}
+.footer-socialmedia .social-link:hover {
+  background-color: darkgray;
+  transition: all 0.1s ease-in;
+}
+.footer-socialmedia .footer-items {
+  height: 15px;
+  width: 15px;
+}
+.footer-socialmedia .footer-items:hover {
+}
+.footer .end {
+  text-align: center;
+  padding: 40px;
+}
